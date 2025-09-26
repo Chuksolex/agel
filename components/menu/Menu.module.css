@@ -1,0 +1,39 @@
+/* Top-level buttons */
+.navButton {
+  background-color: #007bff; /* Blue */
+  color: white !important;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #0056b3; /* Darker blue */
+  color: #fff !important;
+}
+
+.activeButton {
+  background-color: #ffc107 !important; /* Yellow */
+  color: black !important;
+}
+
+/* Dropdown items */
+.dropdown-item {
+  background-color: #007bff; /* Blue */
+  color: white !important;
+  border-radius: 4px;
+  margin: 4px 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #0056b3; /* Darker blue */
+  color: #fff !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #ffc107 !important; /* Yellow */
+  color: black !important;
+}

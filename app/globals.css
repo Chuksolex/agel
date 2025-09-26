@@ -40,3 +40,65 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+/* app/globals.css -- add these rules at the end */
+
+/* Top-level nav button style */
+.custom-btn {
+  background-color: #007bff; /* blue */
+  color: #fff !important;
+  border-radius: 6px;
+  padding: 0.4rem 0.9rem;
+  margin: 0.2rem;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover */
+.custom-btn:hover {
+  background-color: #0056b3;
+  color: #fff !important;
+}
+
+/* Active (selected/current page) */
+.custom-btn.custom-active {
+  background-color: #ffc107 !important; /* yellow */
+  color: #000 !important;
+}
+
+/* Dropdown menu container tweaks so individual items can show blue background */
+.dropdown-menu {
+  background: transparent;       /* make parent background transparent */
+  border: none;
+  padding: 0.4rem;              /* small padding around items */
+}
+
+/* Dropdown item style */
+.custom-dropdown {
+  background-color: #007bff;
+  color: #fff !important;
+  border-radius: 4px;
+  margin: 0.25rem 0;
+  padding: 0.45rem 0.75rem;
+  transition: background-color 0.2s ease;
+}
+
+/* Dropdown hover */
+.custom-dropdown:hover {
+  background-color: #0056b3;
+}
+
+/* Dropdown active */
+.custom-dropdown.custom-active {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+}
+
+/* small adjustment to make dropdown menu items not full-width on desktop */
+@media (min-width: 992px) {
+  .dropdown-menu {
+    min-width: 12rem;
+  }
+}
+

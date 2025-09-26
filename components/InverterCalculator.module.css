@@ -1,0 +1,139 @@
+.container {
+  background: #fff;
+  border-radius: 19px;
+  box-shadow: 0 3px 6px rgba(241, 159, 5, 0.733), 0 3px 6px rgba(5, 68, 241, 0.01);
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.heading {
+  color: #0844bc;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.propertyTypeBar {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.propertyTypeBtn {
+  background: #fff;
+  color: #0844bc;
+  border: 2px solid #0844bc;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.propertyTypeBtn.selected {
+  background: #0844bc;
+  color: #fff;
+}
+
+.applianceTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+.applianceTable th {
+  background: #0844bc;
+  color: #fff;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+.applianceTable td {
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.qtyBtn {
+  background: #1a76af;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0.3rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.qtyBtn:hover {
+  background: #0844bc;
+}
+
+.totalOutput {
+  background: orange;
+  color: #0844bc;
+  border-radius: 10px;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.backupBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.backupInput {
+  width: 3rem;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 0.3rem;
+  background: #f2f2f2;
+  color: #0844bc;
+  font-weight: bold;
+}
+
+.percentBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.percentRange {
+  width: 200px;
+}
+.percentValue {
+  color: #1a76af;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    max-width: 100%;
+  }
+  .heading {
+    font-size: 1.3rem;
+  }
+  .propertyTypeBar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .applianceTable th, .applianceTable td {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+  .totalOutput {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+}

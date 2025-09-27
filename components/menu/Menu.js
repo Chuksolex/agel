@@ -99,7 +99,7 @@ export default function Menu() {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/ready-learners/tutorial-requests" className={linkClass("/products")}>Products</Link>
+                  <Link href="/products" className={linkClass("/products")}>Products</Link>
                 </li>
 
                 <li className="nav-item">
@@ -108,24 +108,24 @@ export default function Menu() {
 
                 {/* Dropdown: Services */}
                 <li className="nav-item dropdown">
-                  <a
+                  <Link
                     href="#"
                     className={`nav-link dropdown-toggle custom-btn ${parentActive("/services")}`}
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Services
-                  </a>
+                    Premium Services
+                  </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link href="/services/web-development" className={dropItemClass("/services/web-development")}>Web Development</Link>
+                      <Link href="/services/agel-connect" className={dropItemClass("/services/agel-connect")}>Agel Connect</Link>
                     </li>
                     <li>
-                      <Link href="/services/app-development" className={dropItemClass("/services/app-development")}>App Development</Link>
+                      <Link href="/services/power-pay-financing" className={dropItemClass("/services/power-pay-financing")}>Solar Financing</Link>
                     </li>
                     <li>
-                      <Link href="/services/digital-marketing" className={dropItemClass("/services/digital-marketing")}>Digital Marketing</Link>
+                      <Link href="/services/distribution-center" className={dropItemClass("/services/distribution-center")}>Distribution Center</Link>
                     </li>
                   </ul>
                 </li>
@@ -153,7 +153,7 @@ export default function Menu() {
 
                 {/* Dropdown: Company */}
                 <li className="nav-item dropdown">
-                  <a
+                  <Link
                     href="#"
                     className={`nav-link dropdown-toggle custom-btn ${parentActive("/about")}`}
                     role="button"
@@ -161,13 +161,13 @@ export default function Menu() {
                     aria-expanded="false"
                   >
                     COMPANY
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link href="/about/company" className={dropItemClass("/about/")}>About Agel</Link>
+                      <Link href="/about" className={dropItemClass("/about/")}>About Agel</Link>
                     </li>
                     <li>
-                      <Link href="/about/team" className={dropItemClass("/contact")}>Contact Us</Link>
+                      <Link href="/about" className={dropItemClass("/contact")}>Contact Us</Link>
                     </li>
                   
                   </ul>

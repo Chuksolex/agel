@@ -1,3 +1,6 @@
+"use client";
+
+import Link from "next/link";
 export default function TermsPage() {
   return (
     <main style={{ background: "#f7faff", minHeight: "100vh", padding: "2rem 0" }}>

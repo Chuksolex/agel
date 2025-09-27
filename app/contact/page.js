@@ -41,98 +41,22 @@ export default function ContactPage() {
   return (
     <main style={{ background: "#f7faff", minHeight: "100vh", paddingBottom: "2rem" }}>
       {/* Navbar */}
-      <nav className="navbar navbar-expand-lg bg-success border-bottom border-body" data-bs-theme="dark">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="/">
-            <img src="/images/logomain2.png" width="50" alt="logo" height="70" />
-          </a>
-          <div>
-            <span className="text-white">Solar Renewables Ltd.</span>
-            <br />
-            <span className="text-white fw-bold fst-italic m-0">We are ready for the future</span>
-          </div>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto me-auto mb-2 mb-lg-0 text-center">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/about">About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/domestic-solar-panel-installation-ng">Residential</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/commercial-solar-panel-installation-ng">Commercial</a>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/mini-grid">Mini-Grid</a></li>
-                  <li><a className="dropdown-item" href="/balcony-solar">Balcony Solar</a></li>
-                  <li><a className="dropdown-item" href="/battery-storage">Battery Storage</a></li>
-                  <li><a className="dropdown-item" href="/ev-charging">EV Charging</a></li>
-                  <li><a className="dropdown-item" href="/gas-and-biofuel">Gas And Biofuels</a></li>
-                  <li><a className="dropdown-item" href="/agricultural-solar">Agricultural Solar</a></li>
-                  <li><a className="dropdown-item" href="/waste-to-energy">Waste To Energy</a></li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle active" href="/load-calculator" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Load Calculator
-                </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/load-calculator">Load Calculator</a></li>
-                  <li><a className="dropdown-item" href="/inverter-calculator">Inverter Load Calculator</a></li>
-                  <li><a className="dropdown-item" href="/solar-panel-calculator">Solar Panel Load Calculator</a></li>
-                </ul>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/contact">Contact</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/support">Support</a>
-              </li>
-            </ul>
-            <div className="d-flex justify-content-center align-items-center gap-5">
-              <p className="text-light fw-bold m-0">
-                <i className="bi-phone"></i> 08077363636363
-              </p>
-              <a className="btn btn-outline-light fw-bold" href="/payment">Pay Now</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+     
 
-      {/* Title Section */}
-      <section className="hero-section gradient-background">
-        <div className="container col-xxl-8 px-4 py-5">
-          <div className="row flex-lg-row-reverse align-items-center g-5 pt-5">
-            <div className="col-12 col-sm-12 col-lg-6">
-              <h2>Solar Solutions</h2>
-            </div>
-            <div className="col-lg-6">
-              <h1 className="display-5 fw-bold text-light lh-1 mb-3">SUPPORT FOR SOLAR INSTALLATION</h1>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Contact Form Section */}
       <section>
         <div className="container">
           <div className="supportForm rounded" style={{ background: "#fff", boxShadow: "0 2px 12px #0844bc22", padding: "2rem", maxWidth: 600, margin: "2rem auto" }}>
             <div className="formTitle">
-              <h3>Solar Renewables Ltd.</h3>
-              <p>Support Email & Phone No.</p>
+              <h3>Contact Agel Customer Service</h3>
             </div>
             <div className="py-2">
               <h4 className="textColor">Email Address:</h4>
-              <p className="fw-bold">soso@solarrenwable.com</p>
+              <p className="fw-bold">agel@gmail.com</p>
               <h4 className="textColor">Office Number:</h4>
-              <p className="fw-bold">0988373737737373</p>
+              <p className="fw-bold">09883737373</p>
             </div>
             <form onSubmit={handleSubmit}>
               <div className="form-group mb-3">
